@@ -6,6 +6,9 @@ const {spawn} = require("child_process");
 
 
 app.use(bodyParser.json())
+app.get('/',(req,res)=>{
+  res.send('HELLO');
+})
 app.post('/my_webhook_url', (req, res)=> {
     var inboundPayload = req.body;
     var event = inboundPayload.type; // get event type: user-event, message-event or message
