@@ -57,7 +57,7 @@ function sendMessage(recepientNumber, message, callback){
           'channel': 'whatsapp',
           'source': '917834811114', //This is the Sandbox number
           'destination': recepientNumber,
-          'src.name': 'ERWINSMITH',
+          'src.name': 'mayureshok',
           'message.payload': message
       }
   };
